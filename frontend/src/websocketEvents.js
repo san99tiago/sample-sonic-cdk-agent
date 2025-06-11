@@ -306,7 +306,7 @@ export class WebSocketEventManager {
             sampleRateHertz: 24000,
             sampleSizeBits: 16,
             channelCount: 1,
-            voiceId: "tiffany", // Match the voice ID in your backend
+            voiceId: "amy", // Match the voice ID in your backend
             encoding: "base64",
             audioType: "SPEECH",
           },
