@@ -517,6 +517,7 @@ function createHtmlStructure() {
   document.body.innerHTML = `
     <div id="app">
       <div class="header">
+        <img src="/cibest-logo.jpeg" alt="CIBEST Logo" class="header-logo" />
         <h1>Call Center Sonic Playground - CIBEST</h1>
         <div class="header-controls">
           <div class="timer-container">

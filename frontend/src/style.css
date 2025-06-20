@@ -344,6 +344,18 @@ button:disabled,
   margin-bottom: 10px;
 }
 
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-logo {
+  height: 150px;
+  width: auto;
+  object-fit: contain;
+}
+
 .header-controls {
   display: flex;
   align-items: center;
@@ -429,6 +441,17 @@ button:disabled,
   .header {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .header-left {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .header-logo {
+    height: 140px;
   }
 
   .header-controls {
